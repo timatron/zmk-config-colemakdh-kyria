@@ -23,8 +23,8 @@
 // |  XXX   |  Z  |  X  |  C   |  D   |  V   |       |       |                            |       |       |  K   |  H    |  ,    |  .   |   /   |  ; |
 //                     |  rot | CTRL  | OPT | CMD   | LOWER |                            | RET | SPACE | BSPC | -   |  =   |
 			bindings = <
-&none &kp Q &kp W &kp F    &kp P    &kp B                                                            &kp J     &kp L    &kp U     &kp Y   &kp SQT  &kp RBKT
-&kp LSHFT  U_MT(LCTRL, A)  U_MT(LALT, R)  U_MT(LGUI, S)  U_MT(LSHFT, T)  &kp G         &kp M  U_MT(LSHFT, N)  U_MT(LGUI, E)  U_MT(LALT, I)  U_MT(LCTRL, O)  &kp LBKT
+&none &kp Q &kp W &kp F    &kp P    &kp B                                                            &kp J     &kp L    &kp U     &kp Y   &kp SQT  U_LT(U_SYM, BSPC)
+&kp LSHFT  U_MT(LCTRL, A)  U_MT(LALT, R)  U_MT(LGUI, S)  U_MT(LSHFT, T)  &kp G         &kp M  U_MT(LSHFT, N)  U_MT(LGUI, E)  U_MT(LALT, I)  U_MT(LCTRL, O)   U_LT(U_NUM, RET) 
 &none &kp Z &kp X &kp C    &kp D    &kp V     &none     &none                  &none    &none    &kp K     &kp H    &kp COMMA &kp DOT &kp BSLH  &kp SEMI
                     &none   &none   U_LT(U_SYM, ESC)   U_LT(U_NAV, SPC)  U_LT(U_NUM, TAB)               U_LT(U_NUM, RET)  U_LT(U_NAV, SPC)  U_LT(U_SYM, BSPC)  &kp MINUS &kp EQUAL
 		      >;
